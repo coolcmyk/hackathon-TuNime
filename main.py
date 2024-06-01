@@ -15,7 +15,7 @@ client = AzureOpenAI(
     api_key=API_KEY,
     api_version=API_VERSION,
 )
-
+    
 MESSAGES = [
     {"role": "system", "content": "You are a helpful assistant."},
     {"role": "user", "content": "Who won the world series in 2020?"},

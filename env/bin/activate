@@ -41,6 +41,13 @@ deactivate nondestructive
 VIRTUAL_ENV="/home/kyo/hackathon-TuNime/env"
 export VIRTUAL_ENV
 
+API_KEY="7a39ad78-e1a9-4500-b625-72bf1a238983"
+export API_KEY
+
+CONNECTION_STRING="mongodb+srv://<user>:<password>@kyomoyo.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000"
+export CONNECTION_STRING
+
+
 _OLD_VIRTUAL_PATH="$PATH"
 PATH="$VIRTUAL_ENV/bin:$PATH"
 export PATH
