@@ -1,6 +1,5 @@
 import pymongo
 import os
-import asyncio
 
 class tunimeDB:
     def __init__(self):
@@ -29,6 +28,16 @@ class tunimeDB:
 #     CONNECTION_STRING = os.environ.get("CONNECTION_STRING")
 #     db_manager = tunimeDB(CONNECTION_STRING)
 #     await db_manager.connect()
+
+#     # Perform database operations
+#     await db_manager.insert_document({"name": "John"})
+#     result = await db_manager.find_document({"name": "John"})
+#     print(result)
+
+#     await db_manager.close()
+
+# Run the main function
+# asyncio.run(main())
 
 #     # Perform database operations
 #     await db_manager.insert_document({"name": "John"})
